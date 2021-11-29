@@ -6,7 +6,7 @@ it.optional = testOptional;
 
 Object.freeze(assert);
 
-describe("st-stack", () => {
+describe("stack", () => {
   it.optional("should create a Stack with the methods", () => {
     const stack = new Stack();
     stack.push(5);
