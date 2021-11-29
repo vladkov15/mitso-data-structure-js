@@ -1,4 +1,4 @@
-# mitso-basic-js
+# mitso-data-structure-js
 
 ## Общее описание задачи
 
