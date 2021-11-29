@@ -14,10 +14,10 @@
     "url": "git+https://github.com/KalinkinFiz/mitso-basic-js"
   },
   "keywords": [
-    "RSS",
+    "mitso",
     "tasks"
   ],
-  "author": "AlreadyBored",
+  "author": "KalinkinFiz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/KalinkinFiz/mitso-basic-js/issues"
