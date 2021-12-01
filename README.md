@@ -1,6 +1,4 @@
-# mitso-data-structure-js
-
-## Общее описание задачи
+# Общее описание задачи
 
 Ваша задача — разобраться с несколькими структурами данных, чтобы решить подзадачи. Описания подзадач, а также инструкции по запуску тестов и отправке решений находятся ниже.
 
@@ -118,9 +116,9 @@ queue.getUnderlyingList(); // возвращает { value: 3, next: null }
 ## Предварительные шаги
 
 1. Установите [Node.js](https://nodejs.org/en/download/)
-2. Сделайте форк этого репозитория: https://github.com/KalinkinFiz/mitso-basic-js
-3. Склонируйте себе этот репозиторий: https://github.com/<%your_github_username%>/mitso-basic-js/
-4. Перейдите в папку `mitso-basic-js`
+2. Сделайте форк этого репозитория: https://github.com/KalinkinFiz/mitso-data-structure-js
+3. Склонируйте себе этот репозиторий: https://github.com/<%your_github_username%>/mitso-data-structure-js/
+4. Перейдите в папку `mitso-data-structure-js`
 5. Вбейте в командную строку [`npm install`](https://docs.npmjs.com/cli/install) для установки зависимостей
 6. Выполните `npm run test` в командой строке.
 7. Вы увидите число ожидающих (pending), проходящих и падающих тестов. 100% проходящие тесты сооветствуют максимальному баллу за задание.
