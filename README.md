@@ -177,16 +177,26 @@ queue.getUnderlyingList(); // возвращает { value: 3, next: null }
 
 1. Установите [Node.js](https://nodejs.org/en/download/)
 2. Сделайте **fork** этого репозитория: https://github.com/KalinkinFiz/mitso-data-structure-js
-3. Склонируйте себе этот репозиторий: https://github.com/<%your_github_username%>/mitso-data-structure-js/
-4. Перейдите в папку `mitso-data-structure-js`
-5. Вбейте в командную строку [`npm install`](https://docs.npmjs.com/cli/install) для установки зависимостей
-6. Выполните `npm run test` в командой строке.
-7. Вы увидите число ожидающих (pending), проходящих и падающих тестов. 100% проходящие тесты сооветствуют максимальному баллу за задание.
-8. **Если все в порядке и задача решена, то необходимо:**
+3. Склонируйте себе этот репозиторий: `git clone https://github.com/<%your_github_username%>/mitso-data-structure-js/`
+4. Перейдите в папку **mitso-data-structure-js**: `cd mitso-data-structure-js`
+5. Вбейте в командную строку [`npm install`](https://docs.npmjs.com/cli/install) для установки зависимостей.
+6. Прочтите описание задачи в `README.md`.
+7. Напишите свой код в src/\*.js
 
-- добавить содержимое измененного файла в index: `git add .` (все измененные файлы попадут в **index**) или `git add ./src/<название файда>.js`
-- записать изменения в локальный репозиторий: `git commit -m "текст коммита"`, например `git commit -m "feat: binarySearchTree completed"`
-- выгрузить новые коммиты из локальной ветки на удаленный репозиторий: `git push origin main`
+   Удалите строку с генерацией ошибки из тела функции:
+
+   ```js
+   throw new NotImplementedError("Not implemented");
+   ```
+
+   Реализуйте функцию любым способом и проверьте свое решение, запустив тесты.
+
+8. Выполните `npm run test` в командой строке.
+9. Вы увидите число ожидающих (pending), проходящих и падающих тестов. 100% проходящие тесты сооветствуют максимальному баллу за задание.
+10. **Если все в порядке и задача решена, то необходимо:**
+    - добавить содержимое измененного файла в index: `git add .` (все измененные файлы попадут в **index**) или `git add ./src/<название файда>.js`
+    - записать изменения в локальный репозиторий: `git commit -m "текст коммита"`, например `git commit -m "feat: binarySearchTree completed"`
+    - выгрузить новые коммиты из локальной ветки на удаленный репозиторий: `git push origin main`
 
 ### !!! ВАЖНО !!!
 
